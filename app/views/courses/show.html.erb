@@ -31,6 +31,7 @@
     </div>
   </div>
 
+  <% if current_user && current_user.enrolled_in?(@course) %>
   <div class="col-12">
     <% @course.sections.each do |section| %>
     <br /><br />
@@ -56,4 +57,5 @@
       </div>
     <% end %>
   </div>
+  <% end %>
 </div>
