@@ -13,7 +13,7 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <%= link_to 'Flixter', root_url, class: 'navbar-brand' %>
+        <%= link_to 'Twist With A Taste', root_url, class: 'navbar-brand' %>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
@@ -73,12 +73,12 @@
         <br />
         <%= link_to 'Careers', '#' %>
         <br />
-        <%= link_to 'Privacy Policy', '#' %>
+        <%= link_to 'Privacy Policy', privacy_path %>
       </div>
       <div class="col-12 col-sm-3">
         <b>Contact</b>
         <br />
-        ma.muthukuda@gmail.com
+        mamw.muthu@gmail.com
         <br />
         Dallas TX, 75206
       </div>
@@ -89,8 +89,12 @@
         <%= link_to 'http://github.com/herangakr' do %>
         <span class="fa fa-github-square fa-2x social-button"></span>
         <% end %>
-        <span class="fa fa-facebook-square fa-2x"></span>
-        <span class="fa fa-twitter-square fa-2x"></span>
+        <%= link_to 'https://www.facebook.com/TwistWithATastefans' do %>
+        <span class="fa fa-facebook-square fa-2x social-button"></span>
+        <% end %>
+        <%= link_to 'https://www.youtube.com/c/TwistWithATaste' do %>
+        <span class="fa fa-youtube-square fa-2x social-button"></span>
+        <% end %>
       </div>
     </div>
   </div>
